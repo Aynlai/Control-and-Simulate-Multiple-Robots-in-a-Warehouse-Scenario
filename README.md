@@ -1,8 +1,8 @@
 # Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario
-> Here is a project developed in three steps
-> 1. Control a differential drive robot to navigate an obstacle-free warehouse
-> 2. Control the robot move in three locations
-> 3. Control multiple robots move in a warehouse
+Here is a project developed in three steps
+1. Control a differential drive robot to navigate an obstacle-free warehouse
+2. Control the robot move in three locations
+3. Control multiple robots move in a warehouse
 
 
 
