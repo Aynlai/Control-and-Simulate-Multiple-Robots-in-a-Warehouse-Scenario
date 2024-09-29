@@ -71,7 +71,7 @@ The model is composed of 3 primary parts
 
 ### 1.2.2 Control
 
-![image-20240928113326102](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928113326102.png)
+<img src="https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_01.png" alt="img" style="zoom:80%;" />
 
 #### 1.2.2.1 Pure Pursuit
 
