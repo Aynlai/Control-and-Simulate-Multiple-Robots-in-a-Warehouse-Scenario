@@ -217,13 +217,13 @@ A Simulink® model is provided that models all aspects of the system for schedul
 open_system('warehouseTasksRobotSimulationModel.slx')
 ```
 
-![image-20240928125402215](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928125402215.png)
+![image-20240928125402215](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/2.2_1.png)
 
 ### 2.2.1 Planning, Control and Plant Model
 
-![image-20240928125620845](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928125620845.png)
+![image-20240928125620845](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/2.2.1_1.png)
 
-The model uses a planning, control, and plant model similar to the [Plan Path for a Differential Drive Robot in Simulink](https://www.mathworks.com/help/releases/R2024a/robotics/ug/plan-path-for-a-differential-drive-robot-in-simulink.html) example.
+The model uses a planning, control, and plant model similar to the [Plan Path for a Differential Drive Robot in Simulink](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/1.2_1.png) example.
 
 #### 2.2.1.1 Planner
 
@@ -256,7 +256,7 @@ The current pose of the robot is used as a starting location and the end locatio
 
    
 
-![img](https://se.mathworks.com/help/examples/robotics/win64/ExecuteTasksForAWarehouseRobotExample_05.png)
+![img](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/2.2.2_1.png)
 
 ### 2.2.3 Simulate the Robot
 
@@ -286,11 +286,11 @@ Open the **Visualization Helper** block and use the **Preset Views** drop-down t
 
 ## 3.1 Model Overview
 
-![image-20240928142648288](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928142648288.png)
+![image-20240928142648288](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3_1.png)
 
 ### 3.1.1 Central Scheduler
 
-<img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928142811601.png" alt="image-20240928142811601" style="zoom: 67%;" />
+<img src="https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1_1.png)" style="zoom: 67%;" />
 
 #### 3.1.1.1 For Each Robot and Package State
 
@@ -324,7 +324,7 @@ Open the **Visualization Helper** block and use the **Preset Views** drop-down t
   3. track
   4. metricinfo
 
-![img](https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_04.png)
+![img](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.1.2_1.png)
 
 ### 3.1.2 Roboto Controller
 
