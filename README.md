@@ -45,7 +45,7 @@ The model is composed of 3 primary parts
 + Control
 + Plant Model
 
-![image-20240928111640929]([F:\projects\Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario\imgs\1.2_1.png](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/1.2_1.png?raw=true))
+![image-20240928111640929](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/1.2_1.png)
 
 ### 1.2.1 Planning
 
