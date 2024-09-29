@@ -334,29 +334,29 @@ The Robot Controller uses a For-Each Subsystem to generate an array of robot con
 
 Each robot controller has the following inputs and outputs.
 
-![img](https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_07.png)
+![img](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.2_2.png)
 
-![img](https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_06.png)
+![img](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.2_3.png)
 
 The controller takes delivery commands, which contains the package information, and plans a path for delivering it someone in the warehouse using mobileRobotPRM. 
 
-![image-20240928150553774](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928150553774.png)
+![image-20240928150553774](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.2_4.png)
 
 The **Pure Pursuit** block takes this path and generates velocity commands for visiting each waypoint. Also, the status of the robot and packages get updated when the robot reaches its goal.
 
 Each robot also has its own internal **scheduler** that tells them the location of unloading stations based on the package information, and sends them back to the loading station when they drop off a package.
 
-The robot controller model uses the same model, `warehouseTasksRobotSimulationModel`, shown in [Execute Tasks for a Warehouse Robot](https://www.mathworks.com/help/releases/R2024a/robotics/ug/execute-tasks-for-a-warehouse-robot.html).
+The robot controller model uses the same model, `warehouseTasksRobotSimulationModel`, shown in Execute Tasks for a Warehouse Robot.
 
-![image-20240928150525858](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928150525858.png)
+![image-20240928150525858](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.2_5.png)
 
 ### 3.1.3 Plant
 
 The **Plant** subsystem uses a **Differential Drive Kinematic Model** block to model the motion of the robots.
 
-<img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928151216338.png" alt="image-20240928151216338" style="zoom:67%;" />
+<img src="[https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.3_1.png" style="zoom:67%;" />
 
-<img src="https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_09.png" alt="img" style="zoom: 67%;" />
+<img src="https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.3_2.png" style="zoom: 67%;" />
 
 ## 3.2 Model Setup
 
@@ -439,7 +439,7 @@ sim('multiRobotExampleModel');
 
 For each of the packages, the dashboard in the model shows if the package is "InProgress", "Unassigned", or "Delivered". Robot Status displays the distance travelled, package location, and a package ID.
 
-![img](https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_12.png)
+![img](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.3.1_1.png)
 
 ## 3.4 Extending the Model
 
@@ -476,7 +476,7 @@ loadingStation = [35, 20];
 
 ## 3.5 Visualization
 
-![img](https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_15.png)
+![img](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.5_1.png)
 
 
 
