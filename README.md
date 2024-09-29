@@ -45,11 +45,11 @@ The model is composed of 3 primary parts
 + Control
 + Plant Model
 
-![image-20240928111640929](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928111640929.png)
+![image-20240928111640929](F:\projects\Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario\imgs\1.2_1.png)
 
 ### 1.2.1 Planning
 
-<img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928111608692.png" alt="image-20240928111608692" style="zoom:67%;" />
+<img src="F:\projects\Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario\imgs\1.2.1_1.png" alt="image-20240928111608692" style="zoom:67%;" />
 
 + The planner function block uses the ***mobileRobotPRM*** path planner 
 
@@ -71,7 +71,7 @@ The model is composed of 3 primary parts
 
 ### 1.2.2 Control
 
-<img src="https://se.mathworks.com/help/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_01.png" alt="img" style="zoom:80%;" />
+<img src="F:\projects\Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario\imgs\1.2.2_1.png" alt="img" style="zoom:80%;" />
 
 #### 1.2.2.1 Pure Pursuit
 
@@ -100,7 +100,7 @@ the final velocity = is_atgoal * velocity
 
 ### 1.2.3 Plant Model
 
-<img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928114505402.png" alt="image-20240928114505402" style="zoom:80%;" />
+<img src="F:\projects\Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario\imgs\1.2.3_1.png" style="zoom:80%;" />
 
 The **Differential Drive Kinematic Model** block creates a vehicle model to simulate simplified vehicle kinematics.
 
