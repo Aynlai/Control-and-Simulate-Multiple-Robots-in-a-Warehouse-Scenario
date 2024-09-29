@@ -286,11 +286,11 @@ Open the **Visualization Helper** block and use the **Preset Views** drop-down t
 
 ## 3.1 Model Overview
 
-![image-20240928142648288](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3_1.png)
+![image-20240928142648288](https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1_1.png)
 
 ### 3.1.1 Central Scheduler
 
-<img src="https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1_1.png)" style="zoom: 67%;" />
+<img src="https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.1_1.png" style="zoom: 67%;" />
 
 #### 3.1.1.1 For Each Robot and Package State
 
@@ -330,7 +330,7 @@ Open the **Visualization Helper** block and use the **Preset Views** drop-down t
 
 The Robot Controller uses a For-Each Subsystem to generate an array of robot controllers for 5 robots.
 
-<img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20240928144522963.png" alt="image-20240928144522963" style="zoom:67%;" />
+<img src="https://github.com/Aynlai/Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario/blob/main/imgs/3.1.2_1.png" style="zoom:67%;" />
 
 Each robot controller has the following inputs and outputs.
 
