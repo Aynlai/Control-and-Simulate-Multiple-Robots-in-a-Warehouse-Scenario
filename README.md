@@ -1,14 +1,22 @@
 # Control-and-Simulate-Multiple-Robots-in-a-Warehouse-Scenario
-Here is a project developed in three steps
-1. Control a differential drive robot to navigate an obstacle-free warehouse
-2. Control the robot move in three locations
+**Project Description**
+This is a project that **simulates the work of multiple robots in a warehouse scenario** and is developed in three steps
+1. Control a differential drive robot to navigate in a warehouse
+2. Control a robot moving in three locations in the warehouse
 3. Control multiple robots move in a warehouse
 
+**Development Environment:**
++ MATLAB Version: R2024a
++ Modeling Tools: Simulink, Robotics System Toolbox
++ Robot Model: Differential Drive Model
+
+**Path planning algorithm:**
++ Probabilistic Road Map(PRM)
 
 
-# 1. Plan path for a Differential Drive Robot in Simulink
+# 1. Control a differential drive robot to navigate in a warehouse
 
-> execute an obstacle-free path between two locations on a given map in Simulink. 
+> execute an obstacle-free path planning between two locations on a given map in Simulink. 
 >
 > The path is generated using a probabilistic road map(PRM) planning algorithm [mobileRobotPRM]
 >
@@ -16,12 +24,12 @@ Here is a project developed in three steps
 >
 > A differential drive kinematic motion model simulates the robot motion
 
-## 1. 1Load the Map and Simulink Model
+## 1.1 Load the Map and Simulink Model
 
 Load the occupancy map, which defines the map limits and obstacles within the map
 
 ```matlab
-load exampleMaps.mat      %exampleMaps.mat contains multiple maps including simpleMap
+load [name of your map].mat      %load the data into base workspace
 ```
 
 Specify a start and end location within the map
@@ -120,7 +128,7 @@ simulation = sim('pathPlanningSimulinkModel.slx');
 ## 1.4 Visualize the Motion of Robot
 
 ````matlab
-map = binaryOccupancyMap(simpleMap);
+map = binaryOccupancyMap([the name of you map]);
 robotPose = simulation.Pose;
 thetaIdx = 3;
 
@@ -159,9 +167,9 @@ for k = 1:10:size(xyz, 1)
 end
 ````
 
-# 2. Execute Tasks for a Warehouse Robot
+# 2. Control the robot move in three locations
 
-> + This example demonstrates how to execute an obstacle-free path for a mobile robot between three locations on a given map. 
+> + This example demonstrates how to execute an obstacle-free path planning for a mobile robot between three locations on a given map. 
 >   + The robot is expected to visit the three locations in a warehouse: a charging station, loading station, and unloading location.
 >
 > + The sequence in which these locations are visited is dictated by a scheduler.
