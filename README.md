@@ -4,7 +4,6 @@ This is a project that **simulates the work of multiple robots in a warehouse sc
 1. Control a differential drive robot to navigate in a warehouse
 2. Control a robot moving in three locations in the warehouse
 3. Control multiple robots move in a warehouse
-![11](https://se.mathworks.com/help/releases/R2024a/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_13.png)
 **Development Environment:**
 + MATLAB Version: R2024a
 + Modeling Tools: Simulink, Robotics System Toolbox
@@ -13,6 +12,7 @@ This is a project that **simulates the work of multiple robots in a warehouse sc
 **Path planning algorithm:**
 + Probabilistic Road Map(PRM)
 
+![11](https://se.mathworks.com/help/releases/R2024a/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_13.png)
 
 # 1. Control a differential drive robot to navigate in a warehouse
 
