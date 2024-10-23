@@ -12,7 +12,7 @@ This is a project that **simulates the work of multiple robots in a warehouse sc
 **Path planning algorithm:**
 + Probabilistic Road Map(PRM)
 
-![11](https://se.mathworks.com/help/releases/R2024a/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_13.png)
+<img src="https://se.mathworks.com/help/releases/R2024a/examples/robotics/win64/ControlAndSimulateMultipleWarehouseRobotsExample_13.png" alt="img" />
 
 # 1. Control a differential drive robot to navigate in a warehouse
 
